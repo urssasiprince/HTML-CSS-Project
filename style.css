@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Card Styles */
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Profile Section */
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #007BFF;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.profile p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Info Section */
+.info p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.info a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.info a:hover {
+    color: #0056b3;
+}
+
+/* Social Links */
+.socials {
+    margin-top: 10px;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    color: #007BFF;
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.social-link:hover {
+    background: #007BFF;
+    color: white;
+}
